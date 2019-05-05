@@ -1,14 +1,27 @@
 {
   "name": "template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Dockerized template for use in microservices developed in NodeJS and Express",
+  "homepage": "https://github.com/matias1305/microservices-template",
+  "main": "server.js",
+  "private": true,
   "scripts": {
-    "start": "node dist/index.js",
-    "dev": "nodemon dist/index.js"
+    "start": "node dist/server.js",
+    "dev": "nodemon dist/server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "microservices",
+    "express"
+  ],
+  "author": {
+    "name" : "Matias Espinoza",
+    "email" : "mespinoza@ubicomp-labs.com",
+    "url": "https://github.com/matias1305/microservices-template"
+  },
+  "bugs": {
+    "email" : "mespinoza@ubicomp-labs.com",
+    "url": "https://github.com/matias1305/microservices-template"
+  },
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
