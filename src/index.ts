@@ -20,5 +20,5 @@ server.app.use(path, router);
 // Start server
 server.start( () => {
   console.log(`Server online in port: ${ server.port }`);
-  console.log(`endpoint avaible: 'http://localhost:5000${path}`);
+  console.log(`endpoint avaible: 'http://localhost:${server.port}${path}`);
 });
